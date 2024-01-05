@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}Coin Flip Results - Coin Flip Game{% endblock %}
+
+{% block content %}
+  <div class="container text-center">
+      <h1 class="mt-5">Coin Flip Results</h1>
+      <p>Result: {{ result }}</p>
+      <p>Winnings: ${{ winnings }}</p>
+  </div>
+{% endblock %}

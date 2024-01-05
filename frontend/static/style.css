@@ -1,0 +1,29 @@
+/* coinflip_project/coinflip_app/static/coinflip_app/css/style.css */
+.coin-container {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 20px auto;
+    cursor: pointer;
+    background-color: #ffd700; /* Coin color */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.coin {
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #000; /* Text color */
+}
+
+.flip {
+    animation: flip-animation 0.6s ease-out;
+}
+
+@keyframes flip-animation {
+    0% { transform: rotateY(0deg); }
+    50% { transform: rotateY(180deg); }
+    100% { transform: rotateY(360deg); }
+}
