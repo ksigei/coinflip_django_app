@@ -1,0 +1,2 @@
+# coinflip_django_app
+coinflip_django_app
